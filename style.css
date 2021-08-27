@@ -7,7 +7,7 @@ body {
   min-height: 100%;
 }
 
-img {
+#eightImage {
   background-image: url("eightball.jpg");
   background-repeat: no-repeat;
   width: 600px;
@@ -37,6 +37,7 @@ h1 {
 }
 
 .unOrderedList {
+  margin-top: 140px;
   text-align: center;
   font-family: sans-serif;
   font-size: 1.5em;
@@ -47,7 +48,7 @@ h1 {
   list-style-type: none;
 }
 
-.clickBttn {
+.button {
   margin-top: 40px;
   margin-left: 340px;
   padding: 10px;
@@ -71,6 +72,15 @@ h1 {
   padding: 20px;
   width: 200px;
   height: 200px;
-  background-color: rgb(182, 180, 180);
-  opacity: 0.3;
+  border: solid black;
+  border-radius: 6px;
+}
+
+#answers {
+  font-family: sans-serif;
+  font-size: 1em;
+  color: black;
+  width: 200px;
+  text-align: center;
+  position: relative;
 }

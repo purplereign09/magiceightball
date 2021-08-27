@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="jQuery.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +22,7 @@
                 <h3>Ask me your question. I will give you an answer....</h3>
             </div>
             
-            <div class="eightImage">
+            <div id="eightImage">
                 <a href="eightball.jpg">
                     <img src="eightball.jpg" style="width:800px; height:800px;">
                 </a>
@@ -37,14 +36,16 @@
                 </ul>
             </div>
             
-            <div class="textArea">
-                <textarea id="questionArea"></textarea>
-            </div>
+            <!-- <div class="textArea">
+                <textarea id="questionArea" cols="30" rows="4"></textarea>
+            </div> -->
             
-            <button type="button" class="clickBttn">Click</button>
+            <div id="answerButton">
+                <button class="button" type="button" onclick="displayAnswer()">Click!</button>
+            </div>
 
             <div class="answerBox">
-                <p></p>
+                <p id="answers"></p>
 
             </div>
     
